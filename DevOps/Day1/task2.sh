@@ -4,7 +4,7 @@ echo "Input string:" "$1 $2 $3 $4 $5"
 echo "Reversed string:";
 echo "$1\n $2\n $3\n $4\n $5\n"| rev;  #reversing-parameters-logic
 
-#Variabbles
+#Variables
 current_date=$(date +"%d/%m/%Y")
 current_time=$(date +"%r")
 user=$(whoami)
